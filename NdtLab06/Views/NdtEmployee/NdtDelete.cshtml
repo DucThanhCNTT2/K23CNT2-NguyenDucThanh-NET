@@ -1,0 +1,10 @@
+﻿@model NdtLab06.Models.NdtEmployee
+
+<h2>Xóa nhân viên</h2>
+<h4>Bạn có chắc muốn xóa nhân viên "@Model.NdtName"?</h4>
+
+<form asp-action="NdtDelete" method="post">
+    <input type="hidden" asp-for="NdtId" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="NdtIndex" class="btn btn-secondary">Hủy</a>
+</form>

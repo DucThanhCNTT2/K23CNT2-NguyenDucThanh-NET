@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|c:\\k23cnt2-nguyenducthanh-net\\ndtlab06\\views\\ndtemployee\\ndtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|solutionrelative:views\\ndtemployee\\ndtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|c:\\k23cnt2-nguyenducthanh-net\\ndtlab06\\views\\ndtemployee\\ndtdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|solutionrelative:views\\ndtemployee\\ndtdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|c:\\k23cnt2-nguyenducthanh-net\\ndtlab06\\controllers\\ndtemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|solutionrelative:controllers\\ndtemployeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|c:\\k23cnt2-nguyenducthanh-net\\ndtlab06\\views\\ndtemployee\\ndtedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|solutionrelative:views\\ndtemployee\\ndtedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|c:\\k23cnt2-nguyenducthanh-net\\ndtlab06\\views\\ndtemployee\\ndtcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|solutionrelative:views\\ndtemployee\\ndtcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|c:\\k23cnt2-nguyenducthanh-net\\ndtlab06\\views\\shared\\_ndtnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|solutionrelative:views\\shared\\_ndtnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|c:\\k23cnt2-nguyenducthanh-net\\ndtlab06\\models\\ndtemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|solutionrelative:models\\ndtemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|c:\\k23cnt2-nguyenducthanh-net\\ndtlab06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|c:\\k23cnt2-nguyenducthanh-net\\ndtlab06\\views\\ndthome\\ndtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|solutionrelative:views\\ndthome\\ndtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|c:\\k23cnt2-nguyenducthanh-net\\ndtlab06\\views\\ndthome\\ndtabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|solutionrelative:views\\ndthome\\ndtabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|c:\\k23cnt2-nguyenducthanh-net\\ndtlab06\\controllers\\ndthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|solutionrelative:controllers\\ndthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|c:\\k23cnt2-nguyenducthanh-net\\ndtlab06\\views\\shared\\_ndtlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|solutionrelative:views\\shared\\_ndtlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|c:\\k23cnt2-nguyenducthanh-net\\ndtlab06\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06149017-73A8-439D-AE16-C396E72ADC79}|NdtLab06.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NdtDelete.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\NdtEmployee\\NdtDelete.cshtml",
+              "RelativeDocumentMoniker": "Views\\NdtEmployee\\NdtDelete.cshtml",
+              "ToolTip": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\NdtEmployee\\NdtDelete.cshtml",
+              "RelativeToolTip": "Views\\NdtEmployee\\NdtDelete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T04:01:26.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NdtEdit.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\NdtEmployee\\NdtEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\NdtEmployee\\NdtEdit.cshtml",
+              "ToolTip": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\NdtEmployee\\NdtEdit.cshtml",
+              "RelativeToolTip": "Views\\NdtEmployee\\NdtEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T03:59:15.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NdtCreate.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\NdtEmployee\\NdtCreate.cshtml",
+              "RelativeDocumentMoniker": "Views\\NdtEmployee\\NdtCreate.cshtml",
+              "ToolTip": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\NdtEmployee\\NdtCreate.cshtml",
+              "RelativeToolTip": "Views\\NdtEmployee\\NdtCreate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T03:41:12.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NdtIndex.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\NdtEmployee\\NdtIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\NdtEmployee\\NdtIndex.cshtml",
+              "ToolTip": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\NdtEmployee\\NdtIndex.cshtml",
+              "RelativeToolTip": "Views\\NdtEmployee\\NdtIndex.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T03:23:40.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NdtEmployeeController.cs",
+              "DocumentMoniker": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Controllers\\NdtEmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NdtEmployeeController.cs",
+              "ToolTip": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Controllers\\NdtEmployeeController.cs",
+              "RelativeToolTip": "Controllers\\NdtEmployeeController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAADwv3EAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T02:45:31.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NdtEmployee.cs",
+              "DocumentMoniker": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Models\\NdtEmployee.cs",
+              "RelativeDocumentMoniker": "Models\\NdtEmployee.cs",
+              "ToolTip": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Models\\NdtEmployee.cs",
+              "RelativeToolTip": "Models\\NdtEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T02:39:22.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T02:33:14.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NdtAbout.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\NdtHome\\NdtAbout.cshtml",
+              "RelativeDocumentMoniker": "Views\\NdtHome\\NdtAbout.cshtml",
+              "ToolTip": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\NdtHome\\NdtAbout.cshtml",
+              "RelativeToolTip": "Views\\NdtHome\\NdtAbout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T02:26:27.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NdtIndex.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\NdtHome\\NdtIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\NdtHome\\NdtIndex.cshtml",
+              "ToolTip": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\NdtHome\\NdtIndex.cshtml",
+              "RelativeToolTip": "Views\\NdtHome\\NdtIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T02:25:43.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_NdtNavBar.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\Shared\\_NdtNavBar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_NdtNavBar.cshtml",
+              "ToolTip": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\Shared\\_NdtNavBar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_NdtNavBar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T02:22:31.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NdtHomeController.cs",
+              "DocumentMoniker": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Controllers\\NdtHomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NdtHomeController.cs",
+              "ToolTip": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Controllers\\NdtHomeController.cs",
+              "RelativeToolTip": "Controllers\\NdtHomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T02:24:49.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_NdtLayout.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\Shared\\_NdtLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_NdtLayout.cshtml",
+              "ToolTip": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\Shared\\_NdtLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_NdtLayout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T02:22:55.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\K23CNT2-NguyenDucThanh-NET\\NdtLab06\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T02:21:10.721Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

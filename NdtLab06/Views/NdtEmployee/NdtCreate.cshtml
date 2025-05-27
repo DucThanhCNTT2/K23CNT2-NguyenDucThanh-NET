@@ -1,0 +1,65 @@
+﻿@model NdtLab06.Models.NdtEmployee
+
+@{
+    ViewBag.Title = "Thêm mới nhân viên";
+}
+
+<h2>Thêm mới nhân viên</h2>
+
+<div class="container mt-4">
+    <div class="card shadow-lg rounded-4">
+        <div class="card-header bg-primary text-white">
+            <h3><i class="bi bi-person-plus"></i> Thêm mới nhân viên</h3>
+        </div>
+        <div class="card-body">
+            <form asp-action="NdtCreate" method="post">
+                <div class="mb-3">
+                    <label asp-for="NdtName" class="form-label">Tên nhân viên</label>
+                    <input asp-for="NdtName" class="form-control" placeholder="Nhập tên nhân viên" />
+                    <span asp-validation-for="NdtName" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NdtBirthDay" class="form-label">Ngày sinh</label>
+                    <input asp-for="NdtBirthDay" type="date" class="form-control" />
+                    <span asp-validation-for="NdtBirthDay" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NdtEmail" class="form-label">Email</label>
+                    <input asp-for="NdtEmail" type="email" class="form-control" placeholder="example@email.com" />
+                    <span asp-validation-for="NdtEmail" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NdtPhone" class="form-label">Điện thoại</label>
+                    <input asp-for="NdtPhone" class="form-control" placeholder="Nhập số điện thoại" />
+                    <span asp-validation-for="NdtPhone" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NdtSalary" class="form-label">Lương</label>
+                    <input asp-for="NdtSalary" type="number" class="form-control" placeholder="Nhập lương" />
+                    <span asp-validation-for="NdtSalary" class="text-danger"></span>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input asp-for="NdtStatus" class="form-check-input" type="checkbox" />
+                    <select asp-for="NdtStatus" class="form-select">
+                        <option value="true">Đang làm</option>
+                        <option value="flase">Nghỉ việc</option>
+                    </select>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <a asp-action="NdtIndex" class="btn btn-secondary">
+                        <i class="bi bi-arrow-left-circle"></i> Quay lại
+                    </a>
+                    <button type="submit" class="btn btn-success">
+                        <i class="bi bi-save"></i> Lưu
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
