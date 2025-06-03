@@ -1,0 +1,71 @@
+﻿@model IEnumerable<NdtLesson07.Models.NdtEmployee>
+
+@{
+    ViewData["Title"] = "DANH SÁCH NHÂN VIÊN";
+}
+
+<h1>DANH SÁCH NHÂN VIÊN</h1>
+
+<p>
+    <a asp-action="NdtCreate" class="btn btn-primary">Thêm mới</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NdtId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NdtName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NdtBirthDay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NdtEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NdtPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NdtSalary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NdtStatus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NdtId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NdtName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NdtBirthDay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NdtEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NdtPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NdtSalary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NdtStatus)
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "NdtEdit", new { id = item.NdtId }) |
+                    @Html.ActionLink("Details", "NdtDetails", new { id = item.NdtId }) |
+                    @Html.ActionLink("Delete", "NdtDelete", new { id = item.NdtId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

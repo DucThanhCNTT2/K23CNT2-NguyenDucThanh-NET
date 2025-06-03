@@ -1,0 +1,60 @@
+﻿@model NdtLesson07.Models.NdtEmployee
+
+@{
+    ViewData["Title"] = "Sửa thông tin nhân viên";
+}
+
+<h1>Sửa thông tin nhân viên</h1>
+
+<h4>NdtEmployee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NdtEdit" asp-route-id="@Model.NdtId">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NdtId" class="control-label"></label>
+                <input asp-for="NdtId" class="form-control" />
+                <span asp-validation-for="NdtId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdtName" class="control-label"></label>
+                <input asp-for="NdtName" class="form-control" />
+                <span asp-validation-for="NdtName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdtBirthDay" class="control-label"></label>
+                <input asp-for="NdtBirthDay" class="form-control" />
+                <span asp-validation-for="NdtBirthDay" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdtEmail" class="control-label"></label>
+                <input asp-for="NdtEmail" class="form-control" />
+                <span asp-validation-for="NdtEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdtPhone" class="control-label"></label>
+                <input asp-for="NdtPhone" class="form-control" />
+                <span asp-validation-for="NdtPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdtSalary" class="control-label"></label>
+                <input asp-for="NdtSalary" class="form-control" />
+                <span asp-validation-for="NdtSalary" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="NdtStatus" /> @Html.DisplayNameFor(model => model.NdtStatus)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="NdtIndex">Back to List</a>
+</div>
+
