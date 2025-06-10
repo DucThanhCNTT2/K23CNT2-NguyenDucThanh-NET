@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\NdtLesson08Annotation.props" />
+</Project>

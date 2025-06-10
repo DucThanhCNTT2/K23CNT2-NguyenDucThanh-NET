@@ -1,0 +1,77 @@
+﻿@model NdtLesson08Annotation.Models.NdtAccount
+
+@{
+    ViewData["Title"] = "Thêm mới";
+}
+
+<h1>Thêm mới nhân viên</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NdtCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NdtId" class="control-label"></label>
+                <input asp-for="NdtId" class="form-control" />
+                <span asp-validation-for="NdtId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdtFullName" class="control-label"></label>
+                <input asp-for="NdtFullName" class="form-control" />
+                <span asp-validation-for="NdtFullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdtEmail" class="control-label"></label>
+                <input asp-for="NdtEmail" class="form-control" />
+                <span asp-validation-for="NdtEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdtPhone" class="control-label"></label>
+                <input asp-for="NdtPhone" class="form-control" />
+                <span asp-validation-for="NdtPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdtAddress" class="control-label"></label>
+                <input asp-for="NdtAddress" class="form-control" />
+                <span asp-validation-for="NdtAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdtAvatar" class="control-label"></label>
+                <input asp-for="NdtAvatar" class="form-control" />
+                <span asp-validation-for="NdtAvatar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdtBirthday" class="control-label"></label>
+                <input asp-for="NdtBirthday" class="form-control" />
+                <span asp-validation-for="NdtBirthday" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdtGender" class="control-label"></label>
+                <input asp-for="NdtGender" class="form-control" />
+                <span asp-validation-for="NdtGender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdtPassword" class="control-label"></label>
+                <input asp-for="NdtPassword" class="form-control" />
+                <span asp-validation-for="NdtPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NdtFacebook" class="control-label"></label>
+                <input asp-for="NdtFacebook" class="form-control" />
+                <span asp-validation-for="NdtFacebook" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="NdtIndex" class="btn btn-primary">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,60 @@
+﻿@model IEnumerable<NdtLesson08Annotation.Models.NdtAccount>
+
+@{
+    ViewData["Title"] = "DANH SÁCH NHÂN VIÊN";
+}
+
+<h1 class="text-center mb-4">DANH SÁCH NHÂN VIÊN</h1>
+
+<div class="mb-3">
+    <a asp-action="NdtCreate" class="btn btn-success">➕ Thêm nhân viên</a>
+</div>
+
+<table class="table table-hover table-bordered shadow-sm rounded">
+    <thead class="table-dark text-center">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.NdtId)</th>
+            <th>@Html.DisplayNameFor(model => model.NdtFullName)</th>
+            <th>@Html.DisplayNameFor(model => model.NdtEmail)</th>
+            <th>@Html.DisplayNameFor(model => model.NdtPhone)</th>
+            <th>@Html.DisplayNameFor(model => model.NdtAddress)</th>
+            <th>Ảnh đại diện</th>
+            <th>Ngày sinh</th>
+            <th>Giới tính</th>
+            <th>@Html.DisplayNameFor(model => model.NdtFacebook)</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="text-center align-middle">
+                <td>@item.NdtId</td>
+                <td>@item.NdtFullName</td>
+                <td>@item.NdtEmail</td>
+                <td>@item.NdtPhone</td>
+                <td>@item.NdtAddress</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.NdtAvatar))
+                    {
+                        <img src="@item.NdtAvatar" alt="avatar" style="width: 50px; height: 50px; object-fit: cover; border-radius: 50%;" />
+                    }
+                    else
+                    {
+                        <span class="text-muted">Không có ảnh</span>
+                    }
+                </td>
+                <td>@item.NdtBirthday.ToString("dd/MM/yyyy")</td>
+                <td>@item.NdtGender</td>
+                <td>
+                    <a href="@item.NdtFacebook" target="_blank">@item.NdtFacebook</a>
+                </td>
+                <td>
+                    <a asp-action="NdtEdit" asp-route-id="@item.NdtId" class="btn btn-sm btn-warning">Sửa</a>
+                    <a asp-action="NdtDetails" asp-route-id="@item.NdtId" class="btn btn-sm btn-info text-white">Chi tiết</a>
+                    <a asp-action="NdtDelete" asp-route-id="@item.NdtId" class="btn btn-sm btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

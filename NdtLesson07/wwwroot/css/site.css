@@ -1,27 +1,9 @@
-﻿html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
+﻿/* Font size base cho toàn bộ trang */
 html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
-}
-﻿html {
     font-size: 14px;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
 }
 
 @media (min-width: 768px) {
@@ -30,173 +12,65 @@ body {
     }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+/* Focus state cho các nút và input */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #0d6efd;
+    outline: none;
 }
 
+/* Giữ chiều cao trang đầy đủ */
 html {
     position: relative;
     min-height: 100%;
 }
 
+/* Cách footer phía dưới */
 body {
-    margin-bottom: 60px;
-}
-/* Navbar */
-.navbar {
-    background: linear-gradient(90deg, #66a6ff 0%, #89f7fe 100%);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 80px;
+    color: #212529;
 }
 
-.navbar-brand {
-    font-weight: bold;
-    font-size: 1.6rem;
-    color: #1a237e !important;
-    letter-spacing: 2px;
+/* Nút đẹp hơn */
+.btn {
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.4rem;
 }
 
-.navbar-nav .nav-link {
-    color: #1a237e !important;
-    font-weight: 500;
-    margin-right: 20px;
-    transition: color 0.2s;
-}
-
-    .navbar-nav .nav-link:hover,
-    .navbar-nav .nav-link.active {
-        color: #0d47a1 !important;
-        text-decoration: underline;
+    .btn:hover {
+        opacity: 0.9;
     }
 
-/* Table */
+/* Bảng đẹp */
 .table {
-    background: #fff;
-    border-radius: 8px;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
-    .table thead th {
-        background: #1976d2;
-        color: #fff;
-        border-bottom: 2px solid #0d47a1;
-        font-weight: bold;
+    .table th {
+        background-color: #343a40;
+        color: white;
+        vertical-align: middle;
+        text-transform: uppercase;
+        font-size: 0.85rem;
     }
 
-    .table tbody tr:hover {
-        background: #e3f2fd;
-    }
-
-    .table td, .table th {
+    .table td {
         vertical-align: middle;
     }
 
-/* Button */
-.btn-primary, .btn-warning, .btn-danger, .btn-info, .btn-secondary {
-    border-radius: 2rem;
-    font-weight: 500;
-    padding-left: 20px;
-    padding-right: 20px;
-    transition: background 0.2s, color 0.2s;
+/* Ảnh đại diện tròn */
+img.rounded-circle {
+    object-fit: cover;
+    border: 2px solid #dee2e6;
 }
 
-    .btn-primary:hover {
-        background: #1565c0;
-    }
-
-    .btn-warning:hover {
-        background: #ffa000;
-        color: #222;
-    }
-
-    .btn-danger:hover {
-        background: #c62828;
-    }
-
-    .btn-info:hover {
-        background: #0288d1;
-    }
-
-    .btn-secondary:hover {
-        background: #424242;
-        color: #fff;
-    }
-
-/* Card */
-.card {
-    border-radius: 1.2rem;
-    box-shadow: 0 4px 16px 0 rgba(33,150,243,0.10);
-    background: #fafcff;
-    border: none;
-}
-
-.card-header {
-    border-radius: 1.2rem 1.2rem 0 0;
-    font-size: 1.25rem;
-    font-weight: bold;
-    background: #1976d2;
-    color: #fff;
-    letter-spacing: 1px;
-}
-
-.card-body {
-    font-size: 1.09rem;
-}
-
-/* Badge trạng thái */
-.badge.bg-success {
-    background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
-    color: #222 !important;
-    font-weight: bold;
-    padding: .6em 1.2em;
-    border-radius: 1.2em;
-}
-
-.badge.bg-secondary {
-    background: linear-gradient(90deg, #b1bfd8 0%, #6782b4 100%);
-    color: #fff !important;
-    font-weight: bold;
-    padding: .6em 1.2em;
-    border-radius: 1.2em;
-}
-
-/* Các đoạn chi tiết */
-dl.row dt {
-    color: #1976d2;
-    font-weight: bold;
-}
-
-/* Form */
-.form-control, .form-check-input {
-    border-radius: 1.5rem;
-    border: 1px solid #90caf9;
-}
-
-    .form-control:focus, .form-check-input:focus {
-        border-color: #1976d2;
-        box-shadow: 0 0 0 2px rgba(25,118,210,0.13);
-    }
-
-.form-group label, .form-check-label {
-    font-weight: 500;
-    color: #0d47a1;
-}
-
-/* Alert */
-.alert-info {
-    background: linear-gradient(90deg, #d7e1ec 0%, #fff 100%);
-    color: #125688;
-    font-size: 1.1rem;
-    border-radius: 1em;
-    border: 1px solid #b7cbe3;
-}
-
-/* Footer */
-footer.footer {
-    background: #e3f2fd;
-    color: #1976d2;
-    font-size: 1.05rem;
-    border-radius: 1em 1em 0 0;
-    margin-top: 2.5em;
-    border-top: 2px solid #90caf9;
+/* Heading */
+h1, h2, h3, h4 {
+    font-weight: 600;
+    color: #343a40;
 }
