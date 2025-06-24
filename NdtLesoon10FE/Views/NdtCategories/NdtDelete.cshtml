@@ -1,0 +1,48 @@
+﻿@model NdtLesoon10FE.Models.Category
+
+@{
+    ViewData["Title"] = "Xác nhận xoá danh mục loại?";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card shadow-sm border-danger">
+            <div class="card-header bg-danger text-white">
+                <h4><i class="bi bi-exclamation-triangle-fill"></i> @ViewData["Title"]</h4>
+                <p class="mb-0">Bạn có chắc chắn muốn xoá danh mục sau không?</p>
+            </div>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-3">Mã loại</dt>
+                    <dd class="col-sm-9">@Model.CateId</dd>
+
+                    <dt class="col-sm-3">Tên loại</dt>
+                    <dd class="col-sm-9">@Model.CateName</dd>
+
+                    <dt class="col-sm-3">Trạng thái</dt>
+                    <dd class="col-sm-9">
+                        @if (Model.CateStatus == true)
+                        {
+                            <span class="badge bg-success">Hiển thị</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">Tạm khóa</span>
+                        }
+                    </dd>
+                </dl>
+            </div>
+            <div class="card-footer text-end">
+                <form asp-action="NdtDelete" method="post" class="d-inline">
+                    <input type="hidden" asp-for="CateId" />
+                    <button type="submit" class="btn btn-danger">
+                        <i class="bi bi-trash"></i> Xoá
+                    </button>
+                </form>
+                <a asp-action="NdtIndex" class="btn btn-secondary ms-2">
+                    <i class="bi bi-arrow-left"></i> Quay lại danh sách
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

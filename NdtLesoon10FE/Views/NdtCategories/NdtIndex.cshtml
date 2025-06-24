@@ -1,0 +1,58 @@
+﻿@model IEnumerable<NdtLesoon10FE.Models.Category>
+
+@{
+    ViewData["Title"] = "Danh mục loại";
+}
+
+<h1 class="mb-4">@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="NdtCreate" class="btn btn-success">
+        <i class="bi bi-plus-circle"></i> Thêm mới
+    </a>
+</p>
+
+<div class="card shadow-sm">
+    <div class="card-body p-0">
+        <table class="table table-hover table-bordered mb-0">
+            <thead class="table-light">
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.CateId)</th>
+                    <th>@Html.DisplayNameFor(model => model.CateName)</th>
+                    <th>@Html.DisplayNameFor(model => model.CateStatus)</th>
+                    <th>Chức năng</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.CateId</td>
+                        <td>@item.CateName</td>
+                        <td>
+                            @if (item.CateStatus == true)
+                            {
+                                <span class="badge bg-success">Hiển thị</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">Tạm khóa</span>
+                            }
+                        </td>
+                        <td>
+                            <a asp-action="NdtEdit" asp-route-ndtId="@item.CateId" class="btn btn-sm btn-warning me-1">
+                                <i class="bi bi-pencil-square"></i> Sửa
+                            </a>
+                            <a asp-action="NdtDetails" asp-route-ndtId="@item.CateId" class="btn btn-sm btn-info me-1 text-white">
+                                <i class="bi bi-eye"></i> Xem
+                            </a>
+                            <a asp-action="NdtDelete" asp-route-ndtId="@item.CateId" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i> Xoá
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
