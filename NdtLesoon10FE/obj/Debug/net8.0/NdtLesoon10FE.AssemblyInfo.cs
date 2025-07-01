@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NdtLesoon10FE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26a4cb27475e26e23eb26a86df3018c06ae75590")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d28edeb951fcdb00a396ebfee37c300c2abddd0")]
 [assembly: System.Reflection.AssemblyProductAttribute("NdtLesoon10FE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NdtLesoon10FE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

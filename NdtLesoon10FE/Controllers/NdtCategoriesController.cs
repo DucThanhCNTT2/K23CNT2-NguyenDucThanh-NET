@@ -134,7 +134,7 @@ namespace NdtLesoon10FE.Controllers
         }
 
         // POST: NdtCategories/NdtDelete/5
-        [HttpPost, ActionName("NdtDelete")]
+        [HttpPost, ActionName("NdtDelete    ")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int ndtId)
         {
